@@ -25,10 +25,9 @@
 				<div>
 					<div>
 						<ul>
-							<li><a href="#">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Projects</a></li>
-							<li><a href="#">Hobbies</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#hobbies">Hobbies</a></li>
 						</ul>
 					</div>
 				</div>
@@ -40,7 +39,7 @@
 				<img src="images/cropped-profile.png" alt="profile image" />
 			</div>
 			<div class="profile__info">
-				<p>David Zapico</p>
+				<p id="about">David Zapico</p>
 				<p>Cybersecurity Analyst</p>
 				<p>Front-End Developer</p>
 			</div>
@@ -50,7 +49,7 @@
 					<p>david@zapico.tech</p>
 				</div>
 				<div class="contact__phone">
-					<img src="images/phone-black-18dp.svg" alt="" />
+					<img src="images/phone-black-18dp.svg" alt="phone icon" />
 					<p>(760) 900-8136</p>
 				</div>
 			</div>
@@ -65,7 +64,30 @@
 		<!-- Section for projects -->
 		<section class="projects">
 			<div class="project__count card">
-				<h5>Projects (8)</h5>
+				<h5 id="projects">Projects (8)</h5>
+			</div>
+
+			<!-- Ninth project -->
+			<div class="project__card card">
+				<div class="project__cover">
+					<a href="http://david.zapico.tech/" target="_blank"
+						><img src="images/ninth_project.jpg" alt=""
+					/></a>
+				</div>
+				<div class="project__about">
+					<div class="project__tag"></div>
+					<h2 class="project__title">Dev Portfolio</h2>
+					<p class="project__details">
+						In this project, I created my online portfolio hosted on my own
+						domain.
+					</p>
+					<div class="buttons">
+						<!-- <button class="btn--primary">
+							<a href="http://david.zapico.tech/" target="_blank">Code</a>
+						</button> -->
+						<!-- <button><a href="#">Code</a></button> -->
+					</div>
+				</div>
 			</div>
 
 			<!-- Eighth project -->
@@ -259,7 +281,7 @@
 		<!-- Experience section -->
 		<section class="experience">
 			<div class="experience__card card">
-				<h3>Experience</h3>
+				<h3 id="experience">Experience</h3>
 				<div class="experience__item">
 					<div class="experience__logo">
 						<i class="fas fa-laptop-code"></i>
@@ -324,7 +346,7 @@
 		<!-- Hobby section -->
 		<section class="hobby">
 			<div class="hobby__card card">
-				<h3>Hobbies</h3>
+				<h3 id="hobbies">Hobbies</h3>
 				<div class="hobby__item">
 					<div class="hobby__image">
 						<img src="images/gaming.jpg" alt="" />
