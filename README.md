@@ -3,7 +3,7 @@
 # [DEMO](https://somdobomk.github.io/Module2-Challenge/)
 
 <div align="center">
-    <img src="./assets/screenshot.jpg" width="400px"> 
+    <img src="./images/screenshot.jpg" width="400px"> 
 </div>
 
 ## User Story
