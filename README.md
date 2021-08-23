@@ -1,6 +1,6 @@
 # Module 2 - Professional Portfolio
 
-# [DEMO](https://somdobomk.github.io/Module2-Challenge/)
+# [DEMO](https://somdobomk-dev-portfolio.netlify.app/)
 
 <div align="center">
     <img src="./images/screenshot.jpg" width="400px"> 
