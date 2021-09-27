@@ -510,7 +510,7 @@ footer a {
 	}
 
 	footer {
-		grid-row: 50;
+		grid-row: 140;
 		grid-column: 5 / span 4;
 		border-top: 2px solid var(--gray006);
 	}
